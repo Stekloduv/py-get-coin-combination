@@ -19,5 +19,3 @@ def test_should_return_1_quarter() -> None:
 
 def test_should_return_all() -> None:
     assert get_coin_combination(41) == [1, 1, 1, 1]
-
-
